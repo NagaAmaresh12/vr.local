@@ -80,22 +80,22 @@ function addInstructionPanels() {
   const panelData = [
     {
       text: "Look left and click",
-      position: new THREE.Vector3(-1.5, 1.3, -1),
+      position: new THREE.Vector3(-1.5, 1.3, -2),
       borderColor: "red",
     },
     {
       text: "Look right and click",
-      position: new THREE.Vector3(1.5, 1.3, -1),
+      position: new THREE.Vector3(1.5, 1.3, -2),
       borderColor: "blue",
     },
     {
       text: "Look top and click",
-      position: new THREE.Vector3(0, 2.5, -1),
+      position: new THREE.Vector3(0, 2.5, -2),
       borderColor: "green",
     },
     {
       text: "Look bottom and click",
-      position: new THREE.Vector3(0, 0.5, -1),
+      position: new THREE.Vector3(0, 2.5, -2),
       borderColor: "yellow",
     },
   ];
