@@ -20,7 +20,7 @@ function init() {
   scene.background = new THREE.Color(0x202020);
 
   camera = new THREE.PerspectiveCamera(
-    10,
+    75,
     window.innerWidth / window.innerHeight,
     0.1,
     1000
@@ -67,7 +67,7 @@ function loadModel() {
     (gltf) => {
       if (model) scene.remove(model);
       model = gltf.scene;
-      model.position.set(0, 1.3, -1);
+      model.position.set(0, 1.3, -2);
       scene.add(model);
       addInstructionPanels();
     },
