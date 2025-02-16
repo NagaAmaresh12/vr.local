@@ -20,7 +20,7 @@ function init() {
   scene.background = new THREE.Color(0x202020);
 
   camera = new THREE.PerspectiveCamera(
-    100,
+    10,
     window.innerWidth / window.innerHeight,
     0.1,
     1000
