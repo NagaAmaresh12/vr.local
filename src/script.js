@@ -95,7 +95,7 @@ function addInstructionPanels() {
     },
     {
       text: "Look bottom and click",
-      position: new THREE.Vector3(0, 2.5, -2),
+      position: new THREE.Vector3(0, 0.5, -2),
       borderColor: "yellow",
     },
   ];
